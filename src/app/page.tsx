@@ -90,7 +90,7 @@ function AnimatedCounter({ target, suffix = '', prefix = '' }: { target: number;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
-  visible: (i: number) => ({ opacity: 1, y: 0, transition: { delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] } }),
+  visible: (i: number) => ({ opacity: 1, y: 0, transition: { delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] } }),
 };
 
 export default function Home() {
@@ -224,7 +224,7 @@ export default function Home() {
                 <span className="gradient-text">One farm at a time.</span>
               </h2>
               <p className="text-gray-400 text-lg leading-relaxed mb-8">
-                Every year, millions of tons of crop residue are burned across India, causing severe air pollution and destroying soil health. CarbonTech creates economic incentives for farmers to adopt sustainable alternatives, generating carbon credits and connecting them to biomass markets.
+                Every year, millions of tons of crop residue are burned across India, causing severe air pollution and destroying soil health. Bharat Credits creates economic incentives for farmers to adopt sustainable alternatives, generating carbon credits and connecting them to biomass markets.
               </p>
               <div className="space-y-4">
                 {[
@@ -456,7 +456,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { name: 'Rajesh Kumar', role: 'Farmer, Punjab', text: 'CarbonTech helped me earn an additional ₹45,000 last season by converting my rice straw into carbon credits instead of burning it.' },
+              { name: 'Rajesh Kumar', role: 'Farmer, Punjab', text: 'Bharat Credits helped me earn an additional ₹45,000 last season by converting my rice straw into carbon credits instead of burning it.' },
               { name: 'Priya Sharma', role: 'Sustainability Head, TCS', text: 'The platform made it incredibly easy for us to purchase verified agricultural carbon credits for our net-zero commitments.' },
               { name: 'Mohan Singh', role: 'Farmer, Haryana', text: 'The AI assistant recommended cover cropping which improved my soil health and generated even more carbon credits this year.' },
             ].map((t, i) => (
@@ -504,7 +504,7 @@ export default function Home() {
               The complete platform for <span className="gradient-text">climate-positive agriculture</span>
             </h2>
             <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
-              Join thousands of farmers, processing plants, and companies using CarbonTech to capture CO₂, generate carbon credits, and build a sustainable future.
+              Join thousands of farmers, processing plants, and companies using Bharat Credits to capture CO₂, generate carbon credits, and build a sustainable future.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/signup" className="group px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-xl hover:from-emerald-400 hover:to-teal-400 transition-all shadow-2xl shadow-emerald-500/25 flex items-center justify-center gap-2">

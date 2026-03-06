@@ -11,6 +11,7 @@ export interface UserProfile {
   photoURL?: string;
   createdAt: string;
   verified: boolean;
+  status?: string;
 }
 
 export interface Farm {

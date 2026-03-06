@@ -56,7 +56,7 @@ export default function FarmMap({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {points.map((point, idx) => (
+        {(points ?? []).map((point, idx) => (
           <Marker key={idx} position={[point.lat, point.lng]}>
             <Popup>
               <strong>{point.label}</strong>

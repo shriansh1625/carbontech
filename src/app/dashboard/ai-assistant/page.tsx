@@ -8,7 +8,7 @@ import { GiSolidLeaf } from 'react-icons/gi';
 export default function AIAssistantPage() {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<{ role: string; content: string }[]>([
-    { role: 'assistant', content: 'Hello! I\'m your CarbonTech AI assistant. I can help you with farming practices, carbon credit generation, biomass pricing, and more. How can I help you today?' },
+    { role: 'assistant', content: 'Hello! I\'m your Bharat Credits AI assistant. I can help you with farming practices, carbon credit generation, biomass pricing, and more. How can I help you today?' },
   ]);
   const [loading, setLoading] = useState(false);
 

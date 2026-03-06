@@ -83,7 +83,7 @@ export default function IndustriesPage() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-4">Quality <span className="gradient-text">Guaranteed</span></h2>
                 <p className="text-gray-400 leading-relaxed mb-6">
-                  Every biomass listing on CarbonTech is quality-graded and verified. We ensure consistent supply, competitive pricing, and full traceability.
+                  Every biomass listing on Bharat Credits is quality-graded and verified. We ensure consistent supply, competitive pricing, and full traceability.
                 </p>
                 <ul className="space-y-3">
                   {['Multi-tier quality grading system', 'Lab-tested moisture & calorific values', 'Verified farmer profiles', 'Dedicated supply chain manager'].map((item, i) => (
@@ -114,7 +114,7 @@ export default function IndustriesPage() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Secure reliable <span className="gradient-text">biomass supply</span></h2>
-          <p className="text-gray-400 mb-8">Join 150+ industries already sourcing sustainably through CarbonTech.</p>
+          <p className="text-gray-400 mb-8">Join 150+ industries already sourcing sustainably through Bharat Credits.</p>
           <Link href="/signup" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/25">
             Register as Industry <FiArrowRight />
           </Link>

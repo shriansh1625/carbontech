@@ -47,7 +47,7 @@ export default function LoginPage() {
           <div className="text-center mb-8">
             <Link href="/" className="inline-flex items-center gap-2 mb-6">
               <GiSolidLeaf className="text-emerald-400 text-3xl" />
-              <span className="text-2xl font-bold gradient-text">CarbonTech</span>
+              <span className="text-2xl font-bold gradient-text">Bharat Credits</span>
             </Link>
             <h1 className="text-2xl font-bold text-white mb-2">Welcome back</h1>
             <p className="text-gray-400 text-sm">Sign in to your account</p>

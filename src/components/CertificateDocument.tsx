@@ -145,7 +145,7 @@ export default function CertificateDocument({ data }: { data: CertificateData })
       <Page size="A4" orientation="landscape" style={styles.page}>
         <View style={styles.border}>
           <View style={styles.header}>
-            <Text style={styles.title}>CarbonTech</Text>
+            <Text style={styles.title}>Bharat Credits</Text>
             <Text style={styles.subtitle}>Agricultural Carbon Credits Platform</Text>
           </View>
 
@@ -185,8 +185,8 @@ export default function CertificateDocument({ data }: { data: CertificateData })
           <Text style={styles.signatureLabel}>Authorized Signatory</Text>
 
           <View style={styles.footer}>
-            <Text style={styles.footerText}>This certificate is issued by CarbonTech Platform and represents verified carbon credit retirement.</Text>
-            <Text style={styles.footerText}>Verify at carbontech.platform/verify/{data.serialNumber}</Text>
+            <Text style={styles.footerText}>This certificate is issued by Bharat Credits Platform and represents verified carbon credit retirement.</Text>
+            <Text style={styles.footerText}>Verify at bharatcredits.platform/verify/{data.serialNumber}</Text>
           </View>
         </View>
       </Page>

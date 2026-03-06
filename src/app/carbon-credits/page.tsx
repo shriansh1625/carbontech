@@ -131,7 +131,7 @@ export default function CarbonCreditsPage() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to offset your <span className="gradient-text">carbon footprint</span>?</h2>
-          <p className="text-gray-400 mb-8">Join 145+ companies already offsetting through CarbonTech agricultural credits.</p>
+          <p className="text-gray-400 mb-8">Join 145+ companies already offsetting through Bharat Credits agricultural credits.</p>
           <Link href="/signup" className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/25">
             Start Buying Credits <FiArrowRight />
           </Link>

@@ -62,10 +62,9 @@ export function DistributionChart({ data }: { data: ChartData[] }) {
           cx="50%"
           cy="50%"
           labelLine={false}
-          label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+          label={({ name, percent }) => `${name} ${((percent ?? 0) * 100).toFixed(0)}%`}
           outerRadius={100}
           dataKey="value"
-          labelStyle={{ fill: '#d1d5db' }}
         >
           {data.map((_, index) => (
             <Cell key={index} fill={COLORS[index % COLORS.length]} />

@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2.5 mb-4">
               <GiSolidLeaf className="text-emerald-400 text-2xl" />
-              <span className="text-xl font-bold gradient-text">CarbonTech</span>
+              <span className="text-xl font-bold gradient-text">Bharat Credits</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed mb-6">
               Building climate-positive infrastructure for agriculture. Connecting farmers to carbon markets.
@@ -59,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-3 text-gray-400">
                 <FiMail className="text-emerald-400 flex-shrink-0" />
-                hello@carbontech.in
+                hello@bharatcredits.in
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <FiPhone className="text-emerald-400 flex-shrink-0" />
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-emerald-500/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} CarbonTech. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Bharat Credits. All rights reserved.</p>
           <p className="mt-2 md:mt-0 text-emerald-500/60">Building a sustainable future for agriculture</p>
         </div>
       </div>

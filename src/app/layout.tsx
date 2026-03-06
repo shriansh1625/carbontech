@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CarbonTech - Agricultural Carbon Credits & Biomass Platform",
+  title: "Bharat Credits - Agricultural Carbon Credits & Biomass Platform",
   description:
     "Connecting farmers, industries, and companies through agricultural carbon credits and sustainable biomass supply chain management.",
 };

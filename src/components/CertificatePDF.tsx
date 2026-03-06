@@ -30,7 +30,7 @@ export default function CertificatePDF({ data }: { data: CertificateData }) {
       {typeof window !== 'undefined' && (
         <PDFDownloadLink
           document={<CertificateDocument data={data} />}
-          fileName={`CarbonTech-Certificate-${data.serialNumber}.pdf`}
+          fileName={`BharatCredits-Certificate-${data.serialNumber}.pdf`}
         >
           {({ loading }: { loading: boolean }) => (
             <button className="flex items-center gap-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 text-sm font-medium transition-colors">

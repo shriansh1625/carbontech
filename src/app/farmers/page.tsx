@@ -61,7 +61,7 @@ export default function FarmersPage() {
       <section className="py-20 border-t border-emerald-500/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white">Why farmers <span className="gradient-text">love CarbonTech</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white">Why farmers <span className="gradient-text">love Bharat Credits</span></h2>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-6">
             {[

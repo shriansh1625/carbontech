@@ -40,6 +40,7 @@ export default function SignupPage() {
         role,
         photoURL: '',
         createdAt: new Date().toISOString(),
+        verified: false,
         status: 'active',
       });
       toast.success('Account created!');
@@ -67,7 +68,7 @@ export default function SignupPage() {
           <div className="text-center mb-8">
             <Link href="/" className="inline-flex items-center gap-2 mb-6">
               <GiSolidLeaf className="text-emerald-400 text-3xl" />
-              <span className="text-2xl font-bold gradient-text">CarbonTech</span>
+              <span className="text-2xl font-bold gradient-text">Bharat Credits</span>
             </Link>
             <h1 className="text-2xl font-bold text-white mb-2">Create your account</h1>
             <p className="text-gray-400 text-sm">Start your climate-positive journey</p>
